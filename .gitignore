@@ -1,14 +1,14 @@
 # Sensitive skills — contain API keys, private URLs, business logic
 # These stay in ~/.agents/skills/ and are NOT published
 
-skills/daytona/
-skills/daytona-flex/
-skills/daytona-forklift/
-skills/daytona-log-research/
-skills/daytona-spec/
-skills/flutter-mock-app-ux/
-skills/handoff/
-skills/jumpstart/
-skills/package-upgrades/
-skills/straddle/
-skills/update-daytona/
+daytona/
+daytona-flex/
+daytona-forklift/
+daytona-log-research/
+daytona-spec/
+flutter-mock-app-ux/
+handoff/
+jumpstart/
+package-upgrades/
+straddle/
+update-daytona/

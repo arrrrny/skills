@@ -1,4 +1,4 @@
-# Agent Skills
+# Skills
 
 Reusable, drop-in skills for AI coding agents — Kimi Code, Claude Code, OpenCode, Codex, and others.
 
@@ -10,19 +10,19 @@ Skills are self-contained instruction files (`.md`) that give agents new capabil
 
 ```bash
 # Clone the repo
-git clone https://github.com/arrrrny/agent-skills.git ~/.agents/skills-public
+git clone https://github.com/arrrrny/skills.git ~/.agents/skills-public
 
 # Symlink the skills you want into your agent's skill directory
-ln -s ~/.agents/skills-public/skills/commit-and-pr ~/.agents/skills/commit-and-pr
-ln -s ~/.agents/skills-public/skills/triage ~/.agents/skills/triage
+ln -s ~/.agents/skills-public/commit-and-pr ~/.agents/skills/commit-and-pr
+ln -s ~/.agents/skills-public/triage ~/.agents/skills/triage
 # ... etc
 ```
 
 Or copy individual skill directories:
 
 ```bash
-cp -r skills/commit-and-pr ~/.agents/skills/
-cp -r skills/triage ~/.agents/skills/
+cp -r commit-and-pr ~/.agents/skills/
+cp -r triage ~/.agents/skills/
 ```
 
 ## Available Skills
